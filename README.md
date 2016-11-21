@@ -8,6 +8,14 @@
 [![codecov.io](https://codecov.io/github/i5ting/fm/coverage.svg?branch=master)](https://codecov.io/github/i5ting/fm?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
+## Features
+
+- travis-ci
+- codecov
+- ava
+- nyc
+- ghooks（pre-commit）
+
 ## Install
 
     $ [sudo] npm install -g 119
