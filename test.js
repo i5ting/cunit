@@ -1,5 +1,5 @@
-import test from 'ava';
+import test from 'ava'
 
 test('example()', function * (t) {
-    t.is(1, 1);
-});
+  t.is(1, 1)
+})
