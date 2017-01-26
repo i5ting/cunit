@@ -14,11 +14,11 @@ var fs = require('fs')
 for(var i in argv){
   var _argv = argv[i];
   if(_argv == '-m'  || _argv == '--min'){
-    fs.createReadStream(filePath + '/tpl/minunit').pipe(fs.createWriteStream(currentPath))
+    fs.createReadStream(filePath + '/tpl/minunit.h').pipe(fs.createWriteStream(currentPath + '/minunit.h'))
   }
   
   if(_argv == '-g'  || _argv == '--greate'){
-    fs.createReadStream(filePath + '/tpl/greatest').pipe(fs.createWriteStream(currentPath))
+    fs.createReadStream(filePath + '/tpl/greatest.h').pipe(fs.createWriteStream(currentPath + '/greatest.h'))
   }
 }
 
