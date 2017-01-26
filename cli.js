@@ -23,6 +23,7 @@ for(var i in argv){
 }
 
 if (flag === false) {
-  console.log('cunit -m: create minunit.h')
-  console.log('cunit -g: create greatest.h')
+  console.log('cunit Usages:')
+  console.log('   -m: create minunit.h')
+  console.log('   -g: create greatest.h')
 }
