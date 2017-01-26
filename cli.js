@@ -1,15 +1,11 @@
 #!/usr/bin/env node
 
+var fs = require('fs')
 var argv = process.argv
 argv.shift()
 
 var filePath = __dirname
 var currentPath = process.cwd()
-
-console.log(filePath)
-console.log(currentPath)
-
-var fs = require('fs')
 
 for(var i in argv){
   var _argv = argv[i];
@@ -21,6 +17,3 @@ for(var i in argv){
     fs.createReadStream(filePath + '/tpl/greatest.h').pipe(fs.createWriteStream(currentPath + '/greatest.h'))
   }
 }
-
-
-
